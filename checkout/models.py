@@ -16,7 +16,7 @@ class Order(models.Model):
 
     def __str__(self):
         return "{1}-{2}-{3}".format(self.id, self.date, self.full_name)
-    #dot format used to inject into strings
+    # dot format used to inject into strings
 
 
 # takes form the order class just created 
